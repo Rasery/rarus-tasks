@@ -59,4 +59,5 @@ if (isset($_POST['submit'])) {
     $email = substr($email, $index + 1);
 
     if ($email == 'gmail.com') echo '<p style="color: rgb(255,0,0)"><b>Регистрация пользователей с таким почтовым адресом невозможна!</b></p>';
+    else echo 'Ваш комментарий зарегистрирован!';
 }
